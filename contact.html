@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+
+<body>
+    
+
+    <header>
+        <nav id="menu">
+            <div class="logo"> Energize </div>
+            <ul class="nav-list">
+                <li><a class="submenu" href="home.html">| Home | </a></li>
+                <li><a class="submenu" href="about.html">| Quem somos | </a></li>
+                <li><a class="submenu" href="mission-vision-value.html">| Missão, Visão e Valores | </a></li>
+                <li><a class="submenu" href="https://www.portalsolar.com.br/calculo-solar" target="_blank">| Simulador de Energia Solar |</a></li>
+                <li><a class="submenu" href="contact.html">| Contato |</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <form class="form" method= "post">
+                <legend class="title">Coloque seus dados e em breve um de nossos representantes entrará em contato para um orçamento</legend>
+                    <div class="name">
+                        <label for="name">Nome:</label>
+                        <input type="text" name="txt_name" id="txt_name" placeholder=" Nome">
+                    </div>
+                    <br>
+                    <div class="email">
+                        <label for="email">E-mail:</label>
+                        <input type="text" name="txt_email" id="txt_email" placeholder= "E-mail " >
+                    </div>
+                    <br>
+                    <div class="phone">
+                        <label for="url"> Telefone com DDD:</label>
+                        <input type="text" name="txt_phone" id="txt_phone" placeholder=" Telefone" >
+                    </div>
+                    <br>
+                    <div class="cpf">
+                        <label for="url">CPF ou RNE:</label>
+                        <input type="text" name="txt_cpf" id="txt_cpf" placeholder="CPF" >
+                    </div>
+                    <br>
+                    <div class="room">
+                        <label for="url">Cidade com UF:</label>
+                        <input type="text" name="txt_class" id="txt_class" placeholder="Ex: São José - SP" >
+                    </div>  
+                    <br>
+                    <div class="input">
+                        <input class="bt" type= "submit" click="limpar()" onclick="alert('Obrigado! Logo entraremos em contato.');">
+                    </div> 
+        </form>
+    </div>
+
+    <div id="footer">
+        <div class="footer-logo"> Energize </div>
+        <div class="footer-contact">
+            <strong class="footer-title">Nossos telefones:</strong>
+            <h5 class="footer-complement">(11)953736487 (capitais e regiões metropolitanas) </h5>
+            <h5 class="footer-complement">(11) 985747785 (demais localidades)</h5>
+        </div>
+        <div class="footer-adress">
+            <strong class="footer-title">Onde estamos localizados:</strong>
+            <h5 class="footer-complement">R. São João do Sabugi, 230 - Jardim Independência (São Paulo)São Paulo - SP, 03224-010 </h5>
+        </div>
+    </div>
+    
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
