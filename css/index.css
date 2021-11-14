@@ -86,7 +86,7 @@
 }
 
 .about {
-    background: linear-gradient(180deg, #565c4e, #fff );
+    background: linear-gradient(180deg, #b98e32, #fff );
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -232,7 +232,7 @@ button {
         justify-content: center;
         align-items: center;
         align-content: center;
-        max-width: 40rem;
+        max-width: 50rem;
         margin: auto;
         color: #000;
     }
@@ -240,7 +240,7 @@ button {
     .title {
         margin: 5rem 0 5rem 0;
         text-shadow: 0.1em 0.1em 0.2em #e3a92b;
-        font-size: 40px;
+        font-size: 60px;
         text-align: center;
     }
     
@@ -248,14 +248,14 @@ button {
         margin: auto auto 3rem auto;
         text-shadow: 0.1em 0.1em 0.2em #e3a92b;
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
     }
     
     .information {
         margin: auto auto 5rem auto;
         text-shadow: 0.1em 0.1em 0.2em #e3a92b;
         text-align: center;
-        font-size: 35px;
+        font-size: 40px;
     }
     
     .nav-list {
@@ -274,7 +274,7 @@ button {
     }
     
     .about {
-        background: linear-gradient(180deg, #565c4e, #fff );
+        background: linear-gradient(180deg, #b98e32, #fff );
         display: flex;
         justify-content: center;
         flex-direction: column;
